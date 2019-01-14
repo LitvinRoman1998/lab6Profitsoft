@@ -1,0 +1,2 @@
+1;2010-03-30;2010-03-31;2020-03-31;INDIVIDUAL;Litvin;Roman;Mihailovich;Pushkinska Street, 23, 18;Litvin;Roman;Mihailovich;1998-06-10;100000;123456789
+2;2018-06-21;2018-06-22;2028-06-22;ENTITY;abc;Pushkin Street, 23;Milo;Gaines; ;1968-03-27;10000;234567891;Dorothy;Green;Alexandrovna;1979-06-01;22000;345678912

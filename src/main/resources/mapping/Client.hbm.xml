@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="profitsoft.data.Client" table="client">
+        <id name="clientId" column="client_id">
+            <generator class="increment"/>
+        </id>
+        <property name="lastName" column="surname">
+        </property>
+        <property name="firstName" column="name">
+        </property>
+        <property name="patronimic" column="patronimic">
+        </property>
+        <property name="companyName" column="company_name">
+        </property>
+        <property name="type" column="client_type">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">profitsoft.dict.Type</param>
+            </type>
+        </property>
+        <property name="adress" column="Adress">
+        </property>
+    </class>
+</hibernate-mapping>

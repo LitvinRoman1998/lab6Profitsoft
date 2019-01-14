@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="profitsoft.data.InsuredPerson" table="insuredperson">
+        <id name="insuredPersonId" column="InsuredPerson_id">
+            <generator class="increment"/>
+        </id>
+        <property name="lastName" column="surname">
+        </property>
+        <property name="firstName" column="name">
+        </property>
+        <property name="patronimic" column="patronimic">
+        </property>
+        <property name="birthDay" column="birthDay">
+        </property>
+        <property name="insurancePrice" column="Insurance_Price">
+        </property>
+        <property name="taxIdentificationNumber" column="Tax_Identification_Number">
+        </property>
+    </class>
+</hibernate-mapping>

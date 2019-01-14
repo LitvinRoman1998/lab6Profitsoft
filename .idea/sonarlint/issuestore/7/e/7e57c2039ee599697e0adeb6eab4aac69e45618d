@@ -1,0 +1,4 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¼ÚŠ
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ñ£’Æù,
+`squid:UselessImportCheck	"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Òê›Æù,

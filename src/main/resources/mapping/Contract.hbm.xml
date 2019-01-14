@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="profitsoft.data.Contract" table="contract">
+        <id name="id" column="contract_id">
+            <generator class="increment"/>
+        </id>
+        <property name="conclusionDate" column="conclusion_date">
+        </property>
+        <property name="startDate" column="start_date">
+        </property>
+        <property name="endDate" column="end_date">
+        </property>
+        <many-to-one name="client" class="profitsoft.data.Client"
+                     column="fk_client_id"/>
+        <set name="insuredPeople" table="contract_has_insuredperson"
+             lazy="true" fetch="select" cascade="all" >
+            <key>
+                <column name="contract_num"/>
+            </key>
+            <many-to-many entity-name="profitsoft.data.InsuredPerson">
+                <column name="insuredperson_num" />
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

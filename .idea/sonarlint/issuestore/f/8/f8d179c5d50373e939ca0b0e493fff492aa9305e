@@ -1,0 +1,6 @@
+
+Ysquid:UselessImportCheck
+"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8˜Â”ªù,
+usquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(­æ˜ôÿÿÿÿÿ8ôÉáªù,
+]squid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8˜Â”ªù,
+tsquid:UselessImportCheck"DRemove this unused import 'org.springframework.jdbc.core.RowMapper'.(¦¬ÀÙùÿÿÿÿ8˜Â”ªù,

@@ -1,0 +1,12 @@
+
+ksquid:S1192J"HDefine a constant instead of duplicating this literal " WHERE " 5 times.(¢¶Ööøÿÿÿÿ8§ª¥¬÷,
+psquid:S2077["RUse a variable binding mechanism to construct this query instead of concatenation.(¢ÖÙ™8ŞäÙÅù,
+qsquid:S2077‡"RUse a variable binding mechanism to construct this query instead of concatenation.(›¥Ğ¥8ŞäÙÅù,
+esquid:S2095\"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹8ŞäÙÅù,
+•"squid:ClassVariableVisibilityCheck"`Make lastInsertedContract a static final constant or non-public and provide accessors if needed.(¦¨î¡8ğšÓ¬÷,
+fsquid:S1192-"HDefine a constant instead of duplicating this literal "Error: " 7 times.(äìÎÆ8ŞäÙÅù,
+esquid:S2095N"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ò¡¥¹8ŞäÙÅù,
+Ysquid:S26960"6Make the enclosing method "static" or remove this set.(ç†ğîüÿÿÿÿ8¯ñş¬÷,
+psquid:S2077M"RUse a variable binding mechanism to construct this query instead of concatenation.(¢ÖÙ™8ŞäÙÅù,
+qsquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(›¥Ğ¥8ŞäÙÅù,
+Xsquid:S1444":Make this "public static lastInsertedContract" field final(¦¨î¡8ğšÓ¬÷,
